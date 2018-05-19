@@ -31,15 +31,22 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 250px;
+  height: 250px;
+  transition: width 2s, height 2s;
 }
 
 /* change the color of the a tag when you hover over it */
-a:hover {
-    color: yellow;
+a:hover{
+  color: yellow;
 }
 
 /* change the size of the image when you hover over it */
-
+img:hover {
+    color: yellow;
+    width: 300px;
+    height: 300px;
+}
 
 
 /*add a transition to the image and the image when it is hovered so that the change in size happens for 1s and 'ease-out'
